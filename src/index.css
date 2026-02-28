@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  @apply m-4 p-4 bg-gray-100 font-sans;
+}
+
+.error {
+  @apply text-red-500;
+}
+
+.button {
+  @apply rounded h-10 w-40 p-2 transition duration-200 ease-in-out 
+         hover:opacity-80 hover:scale-105 
+         active:opacity-60 active:scale-95
+         cursor-pointer;
+}
